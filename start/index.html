@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>重头开始搭建 | 乘以三</title>
+    <meta name="generator" content="VuePress 1.9.9">
+    <link rel="icon" href="/blog/favicon.ico">
+    <meta name="description" content="乘以三的个人网站">
+    
+    <link rel="preload" href="/blog/assets/css/0.styles.fe8226c9.css" as="style"><link rel="preload" href="/blog/assets/js/app.b1ad051c.js" as="script"><link rel="preload" href="/blog/assets/js/2.7e647554.js" as="script"><link rel="preload" href="/blog/assets/js/21.e0347a4b.js" as="script"><link rel="prefetch" href="/blog/assets/js/10.3ba15e52.js"><link rel="prefetch" href="/blog/assets/js/11.b6c3eb57.js"><link rel="prefetch" href="/blog/assets/js/12.ba27b764.js"><link rel="prefetch" href="/blog/assets/js/13.5c2901e4.js"><link rel="prefetch" href="/blog/assets/js/14.8cac94d3.js"><link rel="prefetch" href="/blog/assets/js/15.3efaa1d2.js"><link rel="prefetch" href="/blog/assets/js/16.f4ac9b45.js"><link rel="prefetch" href="/blog/assets/js/17.fba3ab00.js"><link rel="prefetch" href="/blog/assets/js/18.fbea7e9b.js"><link rel="prefetch" href="/blog/assets/js/19.f90bd811.js"><link rel="prefetch" href="/blog/assets/js/20.886d5c05.js"><link rel="prefetch" href="/blog/assets/js/3.5b569b75.js"><link rel="prefetch" href="/blog/assets/js/4.28ca908b.js"><link rel="prefetch" href="/blog/assets/js/5.e85cd2cc.js"><link rel="prefetch" href="/blog/assets/js/6.cada8ccf.js"><link rel="prefetch" href="/blog/assets/js/7.1e8cd780.js"><link rel="prefetch" href="/blog/assets/js/8.94ce26ba.js"><link rel="prefetch" href="/blog/assets/js/9.8acbec95.js">
+    <link rel="stylesheet" href="/blog/assets/css/0.styles.fe8226c9.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/blog/" class="home-link router-link-active"><img src="/blog/logo.png" alt="乘以三" class="logo"> <span class="site-name can-hide">乘以三</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/blog/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/blog/start/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  搭建
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="文档" class="dropdown-title"><span class="title">文档</span> <span class="arrow down"></span></button> <button type="button" aria-label="文档" class="mobile-dropdown-title"><span class="title">文档</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/blogs/CSS/" class="nav-link">
+  CSS
+</a></li><li class="dropdown-item"><!----> <a href="/blog/blogs/JS/" class="nav-link">
+  JavaScript
+</a></li><li class="dropdown-item"><!----> <a href="/blog/blogs/Vue/" class="nav-link">
+  VUE
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="关于我" class="dropdown-title"><span class="title">关于我</span> <span class="arrow down"></span></button> <button type="button" aria-label="关于我" class="mobile-dropdown-title"><span class="title">关于我</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://juejin.cn/user/1121946905352599" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  掘金
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://github.com/Pine-Nuts" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/blog/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/blog/start/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  搭建
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="文档" class="dropdown-title"><span class="title">文档</span> <span class="arrow down"></span></button> <button type="button" aria-label="文档" class="mobile-dropdown-title"><span class="title">文档</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/blogs/CSS/" class="nav-link">
+  CSS
+</a></li><li class="dropdown-item"><!----> <a href="/blog/blogs/JS/" class="nav-link">
+  JavaScript
+</a></li><li class="dropdown-item"><!----> <a href="/blog/blogs/Vue/" class="nav-link">
+  VUE
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="关于我" class="dropdown-title"><span class="title">关于我</span> <span class="arrow down"></span></button> <button type="button" aria-label="关于我" class="mobile-dropdown-title"><span class="title">关于我</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://juejin.cn/user/1121946905352599" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  掘金
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://github.com/Pine-Nuts" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav>  <!----> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="前言"><a href="#前言" class="header-anchor">#</a> 前言</h1> <div class="custom-block tip"><p class="custom-block-title">提示</p> <p>某日网上冲浪心血来潮想搭建一个博客，最初只是想记录面试过程中遇到的问题和理解，以及平时学习过程中的笔记。
+在网上参照<a href="https://github.com/mqyqingfeng/Blog" target="_blank" rel="noopener noreferrer">冴羽github<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>/<a href="https://zhuanlan.zhihu.com/p/489776067" target="_blank" rel="noopener noreferrer">冴羽知乎<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>的教程，
+搭建了该平台，在此感谢大佬的指点。</p></div> <p>记录下搭建的过程和在过程中遇到的问题及找到的解答。</p> <h2 id="本地初步搭建"><a href="#本地初步搭建" class="header-anchor">#</a> 本地初步搭建</h2> <p>附上官网<a href="https://vuepress.vuejs.org/zh/guide/getting-started.html" target="_blank" rel="noopener noreferrer">VuePress<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <p>首先创建并进入一个文件夹，并进行初始化：</p> <div class="language-bash extra-class"><pre class="language-bash"><code>  // 取一个你喜欢的名字
+  <span class="token function">mkdir</span> blog
+  <span class="token builtin class-name">cd</span> blog
+  // 初始化
+  <span class="token function">npm</span> init
+</code></pre></div><p>途中一路回车即可，得到一个只有 <code>package.json</code> 的blog文件夹：</p> <div class="language-md extra-class"><pre class="language-md"><code>  D:\blog
+  ├─package.json
+</code></pre></div><div class="language-json extra-class"><pre class="language-json"><code>  <span class="token comment">// package.json</span>
+  <span class="token punctuation">{</span>
+    <span class="token property">&quot;name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;blog&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;version&quot;</span><span class="token operator">:</span> <span class="token string">&quot;1.0.0&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;description&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;main&quot;</span><span class="token operator">:</span> <span class="token string">&quot;index.js&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;scripts&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token property">&quot;test&quot;</span><span class="token operator">:</span> <span class="token string">&quot;echo \&quot;Error: no test specified\&quot; &amp;&amp; exit 1&quot;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;author&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;license&quot;</span><span class="token operator">:</span> <span class="token string">&quot;ISC&quot;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>安装VuePress：</p> <div class="language-bash extra-class"><pre class="language-bash"><code>  <span class="token function">npm</span> <span class="token function">install</span> vuePress <span class="token parameter variable">-d</span>
+</code></pre></div><p>创建第一篇文章，先创建一个docs文件夹，以及一个 <code>README.md</code> 文件。该文件类似于vue项目下的 <code>index.vue</code> 页面。并写入hello World为文章内容：</p> <div class="language-bash extra-class"><pre class="language-bash"><code>  // 此时是在blog目录下
+  <span class="token function">mkdir</span> docs
+  <span class="token builtin class-name">echo</span> <span class="token string">'# Hello World'</span> <span class="token operator">&gt;</span> docs/README.md
+</code></pre></div><p>同时在 <code>package.json</code> 文件中添加启动命令：</p> <div class="language-json extra-class"><pre class="language-json"><code>  <span class="token punctuation">{</span>
+    <span class="token property">&quot;scripts&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token property">&quot;docs:dev&quot;</span><span class="token operator">:</span> <span class="token string">&quot;vuepress dev docs&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;docs:build&quot;</span><span class="token operator">:</span> <span class="token string">&quot;vuepress build docs&quot;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+</code></pre></div><p>至此框架已初步完成，启动程序：</p> <div class="language-bash extra-class"><pre class="language-bash"><code>  <span class="token function">npm</span> run docs:dev
+</code></pre></div><p>启动完成，端口默认为8080。</p> <p>在浏览器输入 <a href="http://localhost:8080/" target="_blank" rel="noopener noreferrer">http://localhost:8080/<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <p>此处会遇到一个问题--展示乱码</p> <table><thead><tr><th style="text-align:center;">正确的展示</th> <th style="text-align:center;">乱码的展示</th></tr></thead> <tbody><tr><td style="text-align:center;"><img src="/blog/image/problem_1.png" alt="avatar"></td> <td style="text-align:center;"><img src="/blog/image/problem_2.png" alt="avatar"></td></tr></tbody></table> <p>原因是md文件编码格式错误</p> <table><thead><tr><th style="text-align:center;">正确的格式</th> <th style="text-align:center;">引起乱码的格式</th></tr></thead> <tbody><tr><td style="text-align:center;"><img src="/blog/image/problem_3.png" alt="avatar"></td> <td style="text-align:center;">&lt;img :src=&quot;$withBase('/image/problem_4.png')</td></tr></tbody></table> <h2 id="基础配置"><a href="#基础配置" class="header-anchor">#</a> 基础配置</h2> <p>创建一个.vuepress的文件夹，存放所有配置相关的文件，以及一个 <code>config.js</code> 文件，此时的目录结构如下：</p> <div class="language-md extra-class"><pre class="language-md"><code>  D:\blog
+  ├─package-lock.json
+  ├─package.json
+  ├─docs
+  |  ├─README.md
+  |  ├─.vuepress
+  |  |     └config.js
+</code></pre></div><h3 id="_1-添加标题和描述"><a href="#_1-添加标题和描述" class="header-anchor">#</a> 1.添加标题和描述</h3> <p>为了SEO，在 <code>config.js</code> 添加：</p> <div class="language-js extra-class"><pre class="language-js"><code>  module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">title</span><span class="token operator">:</span> <span class="token string">&quot;XXX的网页&quot;</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">description</span><span class="token operator">:</span> <span class="token string">&quot;菜鸟的尝试&quot;</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span>
+</code></pre></div><p>此时的页面：</p> <img src="/blog/image/part_1.png" alt="avatar"> <h3 id="_2-添加导航栏"><a href="#_2-添加导航栏" class="header-anchor">#</a> 2.添加导航栏</h3> <p>在右上角添加导航，修改 <code>config.js</code> ：</p> <div class="language-js extra-class"><pre class="language-js"><code>  module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">title</span><span class="token operator">:</span> <span class="token string">&quot;XXX的网页&quot;</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">description</span><span class="token operator">:</span> <span class="token string">&quot;菜鸟的尝试&quot;</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">themeConfig</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token literal-property property">nav</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+          <span class="token punctuation">{</span> <span class="token literal-property property">text</span><span class="token operator">:</span> <span class="token string">&quot;首页&quot;</span><span class="token punctuation">,</span> <span class="token literal-property property">link</span><span class="token operator">:</span> <span class="token string">&quot;/&quot;</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+          <span class="token punctuation">{</span>
+              <span class="token literal-property property">text</span><span class="token operator">:</span> <span class="token string">&quot;关于我&quot;</span><span class="token punctuation">,</span>
+              <span class="token comment">// 这里是下拉列表展现形式</span>
+              <span class="token literal-property property">items</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+                <span class="token punctuation">{</span><span class="token literal-property property">text</span><span class="token operator">:</span> <span class="token string">&quot;掘金&quot;</span><span class="token punctuation">,</span> <span class="token literal-property property">link</span><span class="token operator">:</span> <span class="token string">&quot;https://juejin.cn/user/1121946905352599&quot;</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+                <span class="token punctuation">{</span><span class="token literal-property property">text</span><span class="token operator">:</span> <span class="token string">&quot;Github&quot;</span><span class="token punctuation">,</span> <span class="token literal-property property">link</span><span class="token operator">:</span> <span class="token string">&quot;https://github.com/Pine-Nuts&quot;</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+              <span class="token punctuation">]</span>
+          <span class="token punctuation">}</span>
+      <span class="token punctuation">]</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+</code></pre></div><p>此时的效果：</p> <img src="/blog/image/part_2.png" alt="avatar"> <p>更多配置请参考<a href="https://vuepress.vuejs.org/zh/theme/default-theme-config.html#%E5%AF%BC%E8%88%AA%E6%A0%8F" target="_blank" rel="noopener noreferrer">导航栏配置<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <h3 id="_3-添加侧边栏"><a href="#_3-添加侧边栏" class="header-anchor">#</a> 3.添加侧边栏</h3> <p>在添加侧边栏之前，先添加一些md文件：</p> <div class="language-md extra-class"><pre class="language-md"><code>  D:\blog\docs
+  ├─README.md
+  ├─CSS_PART
+  |  ├─part_1.md
+  |  └part_2.md
+  ├─.vuepress
+  |     └config.js
+</code></pre></div><div class="language-js extra-class"><pre class="language-js"><code>  module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token operator">...</span>
+    <span class="token literal-property property">themeConfig</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token literal-property property">nav</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token operator">...</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">sidebar</span><span class="token operator">:</span> <span class="token punctuation">[</span> <span class="token comment">// 单侧边栏</span>
+        <span class="token punctuation">{</span>
+          <span class="token literal-property property">title</span><span class="token operator">:</span> <span class="token string">&quot;欢迎光临&quot;</span><span class="token punctuation">,</span>
+          <span class="token literal-property property">path</span><span class="token operator">:</span> <span class="token string">&quot;/&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 点击父级节点是否跳转</span>
+          <span class="token literal-property property">collapsable</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> <span class="token comment">// 是否折叠</span>
+          <span class="token literal-property property">children</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+            <span class="token punctuation">{</span> <span class="token literal-property property">title</span><span class="token operator">:</span> <span class="token string">&quot;开心一下&quot;</span><span class="token punctuation">,</span> <span class="token literal-property property">path</span><span class="token operator">:</span> <span class="token string">&quot;/&quot;</span> <span class="token punctuation">}</span>
+          <span class="token punctuation">]</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+          <span class="token literal-property property">title</span><span class="token operator">:</span> <span class="token string">&quot;CSS&quot;</span><span class="token punctuation">,</span>
+          <span class="token comment">// path: &quot;/CSS_PART/part_1&quot;, // 不跳转</span>
+          <span class="token literal-property property">collapsable</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span> <span class="token comment">// 是否折叠</span>
+          <span class="token literal-property property">children</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+            <span class="token punctuation">{</span> <span class="token literal-property property">title</span><span class="token operator">:</span> <span class="token string">&quot;part1&quot;</span><span class="token punctuation">,</span> <span class="token literal-property property">path</span><span class="token operator">:</span> <span class="token string">&quot;/CSS_PART/part_1&quot;</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+            <span class="token punctuation">{</span> <span class="token literal-property property">title</span><span class="token operator">:</span> <span class="token string">&quot;part2&quot;</span><span class="token punctuation">,</span> <span class="token literal-property property">path</span><span class="token operator">:</span> <span class="token string">&quot;/CSS_PART/part_2&quot;</span> <span class="token punctuation">}</span>
+          <span class="token punctuation">]</span>
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">]</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+</code></pre></div><p>对应效果如下：</p> <img src="/blog/image/part_3.png" alt="avatar"> <p>至此一个网页的基本形态也就搭建完成了。</p> <h3 id="_4-添加主题"><a href="#_4-添加主题" class="header-anchor">#</a> 4.添加主题</h3> <p>基本功能已经实现，但是要实现loading，切换等效果这些还不够，引入主题帮助实现高级功能，这里推荐使用 <code>vuepress-theme-reco</code> ：</p> <div class="language-bash extra-class"><pre class="language-bash"><code>  <span class="token function">npm</span> <span class="token function">install</span> vuepress-theme-reco <span class="token parameter variable">--save</span> <span class="token parameter variable">-dev</span>
+</code></pre></div><p>同时在 <code>config.js</code> 中引用主题</p> <div class="language-js extra-class"><pre class="language-js"><code>  module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token operator">...</span>
+    <span class="token literal-property property">themeConfig</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token literal-property property">nav</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token operator">...</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">sidebar</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token operator">...</span><span class="token punctuation">]</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">theme</span><span class="token operator">:</span> <span class="token string">&quot;reco&quot;</span>
+  <span class="token punctuation">}</span>
+</code></pre></div><p>对应效果如下：</p> <img src="/blog/image/part_4.png" alt="avatar"> <p>点击画板，可以切换模式，具体自行体验。</p> <h3 id="_5-修改主题色"><a href="#_5-修改主题色" class="header-anchor">#</a> 5.修改主题色</h3> <p>VuePress默认是绿色，可以修改成自己喜欢的颜色。在.vuepress目录下创建styles文件夹以及 <code>palette.styl</code> 文件：</p> <div class="language-md extra-class"><pre class="language-md"><code>  D:\blog\docs\.vuepress
+  ├─config.js
+  ├─styles
+  |   └palette.styl
+</code></pre></div><p>设置主题色：</p> <div class="language-css extra-class"><pre class="language-css"><code>  $accentColor = #0093dd // 主题颜色
+</code></pre></div><p>效果如下:</p> <img src="/blog/image/part_5.png" alt="avatar"> <p>更多配置请参考<a href="https://vuepress.vuejs.org/zh/config/#palette-styl" target="_blank" rel="noopener noreferrer">palette.styl<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <h3 id="_6-自定义样式"><a href="#_6-自定义样式" class="header-anchor">#</a> 6.自定义样式</h3> <p>可以看到刚刚黑夜模式下，用于强调作用的文件，显示不清晰，可以通过修改样式进行调整。在刚刚styles的目录下，创建 <code>index.styl</code> 的文件：</p> <div class="language-md extra-class"><pre class="language-md"><code>  D:\blog\docs\.vuepress
+  ├─config.js
+  ├─styles
+  |   ├─index.styl
+  |   └palette.styl
+</code></pre></div><p>添加样式代码：</p> <div class="language-css extra-class"><pre class="language-css"><code>  <span class="token selector">// 处理用作强调的文字颜色在暗黑模式下看不清楚
+  .dark .content__default code</span> <span class="token punctuation">{</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span> <span class="token function">rgba</span><span class="token punctuation">(</span>58<span class="token punctuation">,</span>58<span class="token punctuation">,</span>92<span class="token punctuation">,</span>0.7<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token property">color</span><span class="token punctuation">:</span> #fff<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+</code></pre></div><p>修改后效果如下:</p> <img src="/blog/image/part_6.png" alt="avatar"> <h3 id="_7-添加文章信息"><a href="#_7-添加文章信息" class="header-anchor">#</a> 7.添加文章信息</h3> <p>可以看到part_1页面出现了两个标题，这是因为 <code>vuepress-theme-reco</code> 主题默认取第一个一级标题作为文章的标题，我们可以修改一下文章的信息：</p> <div class="language-md extra-class"><pre class="language-md"><code>  // 在md文件顶部添加
+  <span class="token hr punctuation">---</span>
+  title: CSS第一篇
+  author: chengyisan
+  date: '2023-4-18'
+  <span class="token hr punctuation">---</span>
+</code></pre></div><p>效果如下:</p> <img src="/blog/image/part_7.png" alt="avatar"> <p>如果author作者信息不想每个文档都写，也可以在 <code>config.js</code> 中添加，后续在 <code>config.js</code> 配置中统一添加。</p> <p>也可以在index.styl设置隐藏文章信息</p> <div class="language-css extra-class"><pre class="language-css"><code>  <span class="token selector">.page .page-title</span> <span class="token punctuation">{</span>
+    <span class="token property">display</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+</code></pre></div><h3 id="_8-config-js配置"><a href="#_8-config-js配置" class="header-anchor">#</a> 8.config.js配置</h3> <p>上面我们提示作者信息可以在 <code>config.js</code> 中统一配置：</p> <div class="language-js extra-class"><pre class="language-js"><code>  module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token operator">...</span>
+    <span class="token literal-property property">themeConfig</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token literal-property property">author</span><span class="token operator">:</span> <span class="token string">&quot;chengyisan&quot;</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">nav</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token operator">...</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">sidebar</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token operator">...</span><span class="token punctuation">]</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">theme</span><span class="token operator">:</span> <span class="token string">&quot;reco&quot;</span>
+  <span class="token punctuation">}</span>
+</code></pre></div><p>同时我们看到文章中的时间显示格式4/18/2023和我们书写的格式2023-4-18是不一致，这是因为VuePress的默认语言是en-us，只需设置一下语言即可，设置后显示就变成了2023/4/18：</p> <div class="language-js extra-class"><pre class="language-js"><code>  module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token operator">...</span>
+    <span class="token literal-property property">locales</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token string-property property">&quot;/&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token literal-property property">lang</span><span class="token operator">:</span> <span class="token string">&quot;zh-CN&quot;</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">themeConfig</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token literal-property property">author</span><span class="token operator">:</span> <span class="token string">&quot;chengyisan&quot;</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">nav</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token operator">...</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">sidebar</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token operator">...</span><span class="token punctuation">]</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">theme</span><span class="token operator">:</span> <span class="token string">&quot;reco&quot;</span>
+  <span class="token punctuation">}</span>
+</code></pre></div><p>没有使用vuepress-theme-reco之前文章的多级标题会展示在左侧导航栏，但是vuepress-theme-reco会默认移除这些标题，同时在右侧显示子侧边栏，需要的话可以全局开启：</p> <div class="language-js extra-class"><pre class="language-js"><code>  module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token operator">...</span>
+    <span class="token literal-property property">locales</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token string-property property">&quot;/&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token literal-property property">lang</span><span class="token operator">:</span> <span class="token string">&quot;zh-CN&quot;</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">themeConfig</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token literal-property property">author</span><span class="token operator">:</span> <span class="token string">&quot;chengyisan&quot;</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">nav</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token operator">...</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">sidebar</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token operator">...</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">subSidebar</span><span class="token operator">:</span> <span class="token string">&quot;auto&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 二级标题会在右侧生成导航栏</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">theme</span><span class="token operator">:</span> <span class="token string">&quot;reco&quot;</span>
+  <span class="token punctuation">}</span>
+</code></pre></div><table><thead><tr><th style="text-align:center;">未使用主题</th> <th style="text-align:center;">使用主题不开启子侧边栏</th> <th style="text-align:center;">使用主题开启子侧边栏</th></tr></thead> <tbody><tr><td style="text-align:center;"><img src="/blog/image/part_8.png" alt="avatar"></td> <td style="text-align:center;"><img src="/blog/image/part_9.png" alt="avatar"></td> <td style="text-align:center;"><img src="/blog/image/part_10.png" alt="avatar"></td></tr></tbody></table> <p>至此一个网页的基础升级版也搭建完成了。</p> <h2 id="github-io部署"><a href="#github-io部署" class="header-anchor">#</a> Github.io部署</h2> <p>首先在Github上新建一个仓库，这里取名blog：</p> <img src="/blog/image/part_11.png" alt="avatar"> <p>同时在 <code>config.js</code> 里面增加一个base路径的配置：</p> <div class="language-js extra-class"><pre class="language-js"><code>  module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token operator">...</span>
+    <span class="token comment">// 和仓库名保持一致</span>
+    <span class="token literal-property property">base</span><span class="token operator">:</span> <span class="token string">&quot;/blog/&quot;</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">themeConfig</span><span class="token operator">:</span> <span class="token punctuation">{</span><span class="token operator">...</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token operator">...</span>
+  <span class="token punctuation">}</span>
+</code></pre></div><p>截至目前的 <code>config.js</code> 配置：</p> <div class="language-js extra-class"><pre class="language-js"><code>  module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">title</span><span class="token operator">:</span> <span class="token string">&quot;XXX的网页&quot;</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">description</span><span class="token operator">:</span> <span class="token string">&quot;菜鸟的尝试&quot;</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">base</span><span class="token operator">:</span> <span class="token string">&quot;/blog/&quot;</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">locales</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token string-property property">&quot;/&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token literal-property property">lang</span><span class="token operator">:</span> <span class="token string">&quot;zh-CN&quot;</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">themeConfig</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token literal-property property">author</span><span class="token operator">:</span> <span class="token string">&quot;chengyisan&quot;</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">nav</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span> <span class="token literal-property property">text</span><span class="token operator">:</span> <span class="token string">&quot;首页&quot;</span><span class="token punctuation">,</span> <span class="token literal-property property">link</span><span class="token operator">:</span> <span class="token string">&quot;/&quot;</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+          <span class="token literal-property property">text</span><span class="token operator">:</span> <span class="token string">&quot;关于我&quot;</span><span class="token punctuation">,</span>
+          <span class="token comment">// 这里是下拉列表展现形式</span>
+          <span class="token literal-property property">items</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+            <span class="token punctuation">{</span> <span class="token literal-property property">text</span><span class="token operator">:</span> <span class="token string">&quot;掘金&quot;</span><span class="token punctuation">,</span> <span class="token literal-property property">link</span><span class="token operator">:</span> <span class="token string">&quot;https://juejin.cn/user/1121946905352599&quot;</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+            <span class="token punctuation">{</span> <span class="token literal-property property">text</span><span class="token operator">:</span> <span class="token string">&quot;Github&quot;</span><span class="token punctuation">,</span> <span class="token literal-property property">link</span><span class="token operator">:</span> <span class="token string">&quot;https://github.com/Pine-Nuts&quot;</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+          <span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">]</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">sidebar</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token comment">// 单侧边栏</span>
+        <span class="token punctuation">{</span>
+          <span class="token literal-property property">title</span><span class="token operator">:</span> <span class="token string">&quot;欢迎光临&quot;</span><span class="token punctuation">,</span>
+          <span class="token literal-property property">path</span><span class="token operator">:</span> <span class="token string">&quot;/&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 点击父级节点是否跳转</span>
+          <span class="token literal-property property">collapsable</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> <span class="token comment">// 是否折叠</span>
+          <span class="token literal-property property">children</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span> <span class="token literal-property property">title</span><span class="token operator">:</span> <span class="token string">&quot;开心一下&quot;</span><span class="token punctuation">,</span> <span class="token literal-property property">path</span><span class="token operator">:</span> <span class="token string">&quot;/&quot;</span> <span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+          <span class="token literal-property property">title</span><span class="token operator">:</span> <span class="token string">&quot;CSS&quot;</span><span class="token punctuation">,</span>
+          <span class="token comment">// path: &quot;/CSS_PART/part_1&quot;, // 不跳转</span>
+          <span class="token literal-property property">collapsable</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span> <span class="token comment">// 是否折叠</span>
+          <span class="token literal-property property">children</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+            <span class="token punctuation">{</span> <span class="token literal-property property">title</span><span class="token operator">:</span> <span class="token string">&quot;part1&quot;</span><span class="token punctuation">,</span> <span class="token literal-property property">path</span><span class="token operator">:</span> <span class="token string">&quot;/CSS_PART/part_1&quot;</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+            <span class="token punctuation">{</span> <span class="token literal-property property">title</span><span class="token operator">:</span> <span class="token string">&quot;part2&quot;</span><span class="token punctuation">,</span> <span class="token literal-property property">path</span><span class="token operator">:</span> <span class="token string">&quot;/CSS_PART/part_2&quot;</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+          <span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">]</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">subSidebar</span><span class="token operator">:</span> <span class="token string">&quot;auto&quot;</span><span class="token punctuation">,</span> <span class="token comment">// 二级标题会在右侧生成导航栏</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">theme</span><span class="token operator">:</span> <span class="token string">&quot;reco&quot;</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre></div><p>然后在blog目录下建立 <code>deploy.sh</code> 文件：</p> <div class="language-bash extra-class"><pre class="language-bash"><code>  <span class="token comment">#!/usr/bin/env sh</span>
+
+  <span class="token comment"># 确保脚本抛出遇到的错误</span>
+  <span class="token builtin class-name">set</span> <span class="token parameter variable">-e</span>
+
+  <span class="token comment"># 生成静态文件</span>
+  <span class="token function">npm</span> run docs:build
+
+  <span class="token comment"># 进入生成的文件夹</span>
+  <span class="token builtin class-name">cd</span> docs/.vuepress/dist
+
+  <span class="token function">git</span> init
+  <span class="token function">git</span> <span class="token function">add</span> <span class="token parameter variable">-A</span>
+  <span class="token function">git</span> commit <span class="token parameter variable">-m</span> <span class="token string">'deploy'</span>
+
+  <span class="token comment"># 如果发布到 https://&lt;USERNAME&gt;.github.io/&lt;REPO&gt;</span>
+  <span class="token function">git</span> push <span class="token parameter variable">-f</span> git@github.com:chengyisan/blog.git master:gh-pages
+
+  <span class="token builtin class-name">cd</span> -
+</code></pre></div><p>新建终端，此处以vscode为例，执行 <code>sh deploy.sh</code>，项目就会开始构建，并最终推送到 <code>gh-pages</code> 分支：</p> <img src="/blog/image/part_12.png" alt="avatar"> <p>最终我们可以在仓库的 Settings -&gt; Pages 中看到最后的地址。</p> <img src="/blog/image/part_13.png" alt="avatar"> <p>最后生成的地址：<a href="https://chengyisan.github.io/blog/" target="_blank" rel="noopener noreferrer">https://chengyisan.github.io/blog/<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <p>至此，我们完成了 VuePress 和 Github Pages 的部署。</p> <h2 id="一些补充"><a href="#一些补充" class="header-anchor">#</a> 一些补充</h2> <h3 id="_1-组件的引用"><a href="#_1-组件的引用" class="header-anchor">#</a> 1.组件的引用</h3> <p>因为VuePress会自动识别 <code>components</code> 文件夹内的所有组件并自动注册，我们在对应的页面直接使用即可。举个例子，在 <code>components</code>目录下创建 <code>demo.vue</code> 文件：</p> <div class="language-md extra-class"><pre class="language-md"><code>  D:\blog\docs\.vuepress
+  ├─config.js
+  ├─styles
+  |   ├─index.styl
+  |   └palette.styl
+  ├─components
+  |     └demo.vue
+</code></pre></div><p>内容就写hello css：</p> <div class="language-vue extra-class"><pre class="language-vue"><code>  // demo.vue
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>demo<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+      hello css
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><p>在 <code>part_2.md</code> 中亦如在vue文件中直接引用组件名称：</p> <div class="language-md extra-class"><pre class="language-md"><code>  // part_2.md
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>demo</span> <span class="token punctuation">/&gt;</span></span>
+</code></pre></div><img src="/blog/image/part_14.png" alt="avatar"> <h3 id="_2-自定义主题"><a href="#_2-自定义主题" class="header-anchor">#</a> 2.自定义主题</h3> <p>除了使用vuepress-theme-reco作为主题，我们还可以使用自定义的主题进行页面展示，例如 <code>elementUI</code>，在.vuepress目录下添加 <code>enhanceAPP.js</code> 文件：</p> <div class="language-md extra-class"><pre class="language-md"><code>  D:\blog\docs\.vuepress
+  ├─.vuepress
+  |     ├─config.js
+  |     ├─enhanceApp.js
+  |     ├─styles
+  |     |   ├─index.styl
+  |     |   └palette.styl
+  |     ├─components
+  |     |     └demo.vue
+</code></pre></div><div class="language-js extra-class"><pre class="language-js"><code>  <span class="token comment">// enhanceAPP.js</span>
+  <span class="token keyword">import</span> Vue <span class="token keyword">from</span> <span class="token string">'vue'</span>
+  <span class="token keyword">import</span> ElementUI <span class="token keyword">from</span> <span class="token string">'element-ui'</span>
+  <span class="token keyword">import</span> <span class="token string">'element-ui/lib/theme-chalk/index.css'</span>
+  <span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">(</span><span class="token parameter"><span class="token punctuation">{</span>
+    Vue<span class="token punctuation">,</span>
+    options<span class="token punctuation">,</span>
+    router
+  <span class="token punctuation">}</span></span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    Vue<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>ElementUI<span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+</code></pre></div><p>在VuePress中应该就可以使用 <code>elementUI</code> 里边的组件了。可是启动项目后发现页面白屏且控制台会报这样的错误，<code>Cannot find module 'core-js/library/fn/xxx/xxx'</code>：</p> <img src="/blog/image/problem_5.png" alt="avatar"> <p>经过查询发现原因应该是UI组件中依赖的core-js包和VuePress所依赖的core-js包版本不兼容造成的。大佬附带了解决方案，需要在配置文件 <code>config.js</code> 中进行如下配置：</p> <div class="language-js extra-class"><pre class="language-js"><code>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token operator">...</span>
+  <span class="token literal-property property">theme</span><span class="token operator">:</span> <span class="token string">&quot;reco&quot;</span><span class="token punctuation">,</span>
+  <span class="token function-variable function">chainWebpack</span><span class="token operator">:</span> <span class="token parameter">config</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    config<span class="token punctuation">.</span>resolve<span class="token punctuation">.</span>alias<span class="token punctuation">.</span><span class="token function">set</span><span class="token punctuation">(</span><span class="token string">'core-js/library/fn'</span><span class="token punctuation">,</span> <span class="token string">'core-js/features'</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre></div><p>在 <code>part_2.md</code> 中添加一个按钮</p> <div class="language-md extra-class"><pre class="language-md"><code>  // part_2.md
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>demo</span> <span class="token punctuation">/&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>el-button</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>primary<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>出发<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>el-button</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><img src="/blog/image/part_15.png" alt="avatar"> <h3 id="_3-引入less"><a href="#_3-引入less" class="header-anchor">#</a> 3.引入less</h3> <p>既然引入了 <code>elementUI</code> ,那就可以引入less进行样式修改了，安装依赖：</p> <div class="language-bash extra-class"><pre class="language-bash"><code>  <span class="token function">npm</span> i <span class="token parameter variable">-D</span> less-loader <span class="token function">less</span>
+</code></pre></div><p>发现启动直接报错：</p> <img src="/blog/image/problem_7.png" alt="avatar"> <p>解决方法：
+3-1.less-loader版本过高，建议卸载，重新安装 <code>less-loader@7.3.0</code>；
+3-2.将项目的 <code>node_modules</code> 和 <code>package-lock.json</code> 删除，执行命令：<code>npm cache clean --force</code>，然后重新 <code>npm install</code> 即可。</p> <p>修改组件 <code>demo.vue</code> ：</p> <div class="language-vue extra-class"><pre class="language-vue"><code>  // demo.vue
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>demo<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+      hello css
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>less<span class="token punctuation">&quot;</span></span> <span class="token attr-name">scoped</span><span class="token punctuation">&gt;</span></span><span class="token style"><span class="token language-css">
+  <span class="token selector">.demo</span> <span class="token punctuation">{</span>
+    <span class="token property">background</span><span class="token punctuation">:</span> #0093dd<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+  </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><img src="/blog/image/part_16.png" alt="avatar"> <h3 id="_4-首页配置"><a href="#_4-首页配置" class="header-anchor">#</a> 4.首页配置</h3> <p>首先vuepress-theme-reco给我们提供了一套blog形式的主题，只需修改 <code>config.js</code> 即可，同时在.vuepress目录下创建 <code>public</code> 文件夹，用于存放静态资源，这里存放一张图片，作为头像：</p> <div class="language-md extra-class"><pre class="language-md"><code>  D:\blog\docs\.vuepress
+  ├─config.js
+  ├─enhanceApp.js
+  ├─styles
+  |   ├─index.styl
+  |   └palette.styl
+  ├─public
+  |   └avatar.png
+  ├─components
+  |     └demo.vue
+</code></pre></div><div class="language-js extra-class"><pre class="language-js"><code>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token operator">...</span>
+  <span class="token literal-property property">themeConfig</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">author</span><span class="token operator">:</span> <span class="token string">&quot;chengyisan&quot;</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">authorAvatar</span><span class="token operator">:</span> <span class="token string">'/avatar.png'</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">type</span><span class="token operator">:</span> <span class="token string">'blog'</span>
+    <span class="token operator">...</span>
+  <span class="token punctuation">}</span>
+  <span class="token operator">...</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre></div><p>同时修改 <code>docs/README.md</code> 文件：</p> <div class="language-md extra-class"><pre class="language-md"><code>  <span class="token hr punctuation">---</span>
+  home: true
+  <span class="token hr punctuation">---</span>
+  <span class="token comment">&lt;!-- # Hello World --&gt;</span>
+</code></pre></div><p>重启服务，就可以看到如下效果，页面中的文字默认会采用 <code>config.js</code> 中的 <code>title</code> 和 <code>description</code>：</p> <img src="/blog/image/part_17.png" alt="avatar"> <p>滚动滚动条之后的效果：</p> <img src="/blog/image/part_18.png" alt="avatar"> <p>继续修改 <code>docs/README.md</code> 文件：</p> <div class="language-md extra-class"><pre class="language-md"><code>  <span class="token hr punctuation">---</span>
+  home: true
+  heroImage: &quot;/avatar.png&quot;
+  heroText: chengyisan
+  heroImageStyle:
+    {
+      maxHeight: &quot;288px&quot;,
+      display: block,
+      borderRadius: &quot;19% 81% 23% 77% / 44% 57% 43% 56%&quot;,
+      boxShadow: &quot;0 15px 18px rgba(0,0,0,0.2)&quot;,
+    }
+  <span class="token hr punctuation">---</span>
+</code></pre></div><p>最后的效果：</p> <img src="/blog/image/part_19.png" alt="avatar"> <p>更多配置参考<a href="https://vuepress-theme-reco.recoluan.com/views/1.x/home.html" target="_blank" rel="noopener noreferrer">首页配置<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <p>既然引入了less，我们就可以改造一下我们的首页了。比如通过使用自定义组件来展示，首页在 <code>.vuepress/components</code> 目录下创建 <code>BlogHome.vue</code> 文件：</p> <div class="language-md extra-class"><pre class="language-md"><code>  D:\blog\docs\.vuepress
+  ├─config.js
+  ├─enhanceApp.js
+  ├─styles
+  |   ├─index.styl
+  |   └palette.styl
+  ├─public
+  |   └avatar.png
+  ├─components
+  |     ├─BlogHome.vue
+  |     └demo.vue
+</code></pre></div><p>简单写一些内容：</p> <div class="language-vue extra-class"><pre class="language-vue"><code>  // BlogHome.vue
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>home-container<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">:src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>imageSrc<span class="token punctuation">&quot;</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span><span class="token punctuation">&quot;</span></span> <span class="token attr-name">srcset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span><span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+  <span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">name</span><span class="token operator">:</span> <span class="token string">'BlogHome'</span><span class="token punctuation">,</span>
+    <span class="token function">data</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">return</span> <span class="token punctuation">{</span>
+        <span class="token literal-property property">pcImageSrc</span><span class="token operator">:</span> <span class="token string">'/home/home-background-pc.jpg'</span><span class="token punctuation">,</span>
+        <span class="token literal-property property">mobileImageSrc</span><span class="token operator">:</span> <span class="token string">'/home/home-background-mobile.jpg'</span><span class="token punctuation">,</span>
+        <span class="token literal-property property">deviceType</span><span class="token operator">:</span> <span class="token keyword">null</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">computed</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token function">imageSrc</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span>deviceType <span class="token operator">===</span> <span class="token string">'pc'</span> <span class="token operator">?</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">$withBase</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>pcImageSrc<span class="token punctuation">)</span> <span class="token operator">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">$withBase</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>mobileImageSrc<span class="token punctuation">)</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token function">mounted</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">detectDeviceType</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      window<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">'resize'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">detectDeviceType</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token literal-property property">methods</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token function">detectDeviceType</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini</span><span class="token regex-delimiter">/</span><span class="token regex-flags">i</span></span><span class="token punctuation">.</span><span class="token function">test</span><span class="token punctuation">(</span>navigator<span class="token punctuation">.</span>userAgent<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+          <span class="token keyword">this</span><span class="token punctuation">.</span>deviceType <span class="token operator">=</span> <span class="token string">'mobile'</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+          <span class="token keyword">this</span><span class="token punctuation">.</span>deviceType <span class="token operator">=</span> <span class="token string">'pc'</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token function">beforeDestroy</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      window<span class="token punctuation">.</span><span class="token function">removeEventListener</span><span class="token punctuation">(</span><span class="token string">'resize'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">detectDeviceType</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span>
+  </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>less<span class="token punctuation">&quot;</span></span> <span class="token attr-name">scoped</span><span class="token punctuation">&gt;</span></span><span class="token style"><span class="token language-css">
+  <span class="token selector">.home-container</span> <span class="token punctuation">{</span>
+    <span class="token property">display</span><span class="token punctuation">:</span> flex<span class="token punctuation">;</span>
+    <span class="token property">align-content</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span>
+    <span class="token property">justify-content</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span>
+    <span class="token selector">img</span> <span class="token punctuation">{</span>
+      // 3.6rem头部高度
+      <span class="token property">margin-top</span><span class="token punctuation">:</span> 3.6rem<span class="token punctuation">;</span>
+      <span class="token property">width</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span>
+      <span class="token property">max-width</span><span class="token punctuation">:</span> 965px<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+  </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><p>修改 <code>config.js</code> 文件，将刚刚上述添加的 <code>authorAvatar</code> 属性注释，同时将 <code>type</code> 改完组件名称  <code>BlogHome</code>：</p> <div class="language-js extra-class"><pre class="language-js"><code>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token operator">...</span>
+  <span class="token literal-property property">themeConfig</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">author</span><span class="token operator">:</span> <span class="token string">&quot;chengyisan&quot;</span><span class="token punctuation">,</span>
+    <span class="token comment">// authorAvatar: '/avatar.png',</span>
+    <span class="token literal-property property">type</span><span class="token operator">:</span> <span class="token string">'BlogHome'</span>
+    <span class="token operator">...</span>
+  <span class="token punctuation">}</span>
+  <span class="token operator">...</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre></div><p>重启服务，就可以看到如下效果：</p> <img src="/blog/image/part_20.png" alt="avatar"></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">上次更新:</span> <span class="time">10 个月前</span></div></footer> <!----> </main></div><div class="global-ui"><!----><div class="reco-bgm-panel" data-v-b1d3339e><audio id="bgm" src="/blog/bgm/Married Life.mp3" data-v-b1d3339e></audio> <div class="reco-float-box" style="bottom:10px;z-index:999999;display:none;" data-v-b1d3339e data-v-41bcba48 data-v-b1d3339e><img src="/blog/bgm/UP.jpg" data-v-b1d3339e></div> <div class="reco-bgm-box" style="left:10px;bottom:10px;z-index:999999;" data-v-b1d3339e data-v-41bcba48 data-v-b1d3339e><div class="reco-bgm-cover" style="background-image:url(/blog/bgm/UP.jpg);" data-v-b1d3339e><div class="mini-operation" style="display:none;" data-v-b1d3339e><i class="reco-bgm reco-bgm-pause" style="display:none;" data-v-b1d3339e></i> <i class="reco-bgm reco-bgm-play" style="display:none;" data-v-b1d3339e></i></div> <div class="falut-message" style="display:none;" data-v-b1d3339e>
+          播放失败
+        </div></div> <div class="reco-bgm-info" data-v-b1d3339e data-v-41bcba48 data-v-b1d3339e><div class="info-box" data-v-b1d3339e><i class="reco-bgm reco-bgm-music music" data-v-b1d3339e></i>Married Life</div> <div class="info-box" data-v-b1d3339e><i class="reco-bgm reco-bgm-artist" data-v-b1d3339e></i>UP</div> <div class="reco-bgm-progress" data-v-b1d3339e><div class="progress-bar" data-v-b1d3339e><div class="bar" data-v-b1d3339e></div></div></div> <div class="reco-bgm-operation" data-v-b1d3339e><i class="reco-bgm reco-bgm-last last" data-v-b1d3339e></i> <i class="reco-bgm reco-bgm-pause pause" style="display:none;" data-v-b1d3339e></i> <i class="reco-bgm reco-bgm-play play" data-v-b1d3339e></i> <i class="reco-bgm reco-bgm-next next" data-v-b1d3339e></i> <i class="reco-bgm reco-bgm-volume1 volume" data-v-b1d3339e></i> <i class="reco-bgm reco-bgm-mute mute" style="display:none;" data-v-b1d3339e></i> <div class="volume-bar" data-v-b1d3339e><div class="bar" data-v-b1d3339e></div></div></div></div> <div class="reco-bgm-left-box" data-v-b1d3339e data-v-41bcba48 data-v-b1d3339e><i class="reco-bgm reco-bgm-left" data-v-b1d3339e></i></div></div></div></div></div>
+    <script src="/blog/assets/js/app.b1ad051c.js" defer></script><script src="/blog/assets/js/2.7e647554.js" defer></script><script src="/blog/assets/js/21.e0347a4b.js" defer></script>
+  </body>
+</html>
